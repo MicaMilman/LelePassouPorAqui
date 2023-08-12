@@ -1,0 +1,121 @@
+#EXECUTA O CÓDIGO ANTES DE LER COMO EU FIZ SAFADA 😂😝
+#RESPONDE 69 ALI NA BRINCADEIRA DO JOGO DE ADIVINHAR
+#E RESPONDE COM NADA NO ALMOÇO
+#MANDA O DOUGLAS SE FUDER
+#PARA DE LER E JOGA!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import random
+
+def obter_nome():
+    nome = input("Qual é o seu nome? ")
+    return nome
+
+def obter_idade():
+    idade = input("Qual é a sua idade? ")
+    return idade
+
+def frase_motivacional():
+    frases = [
+
+    "A vida é a arte do encontro, embora haja tanto desencontro pela vida.",
+    "Que não seja imortal, posto que é chama, mas que seja infinito enquanto dure.",
+    "A tristeza é senhora. Desde que o samba é samba é assim.",
+    "Eu sei que vou te amar por toda a minha vida.",
+    "Para tristeza de um olhar é preciso que dois olhares se cruzem.",
+    "O Grêmio é o maior time do mundo! (Frase Rara!)",
+    "Sonhar mais um sonho impossível, lutar quando é fácil ceder.",
+    "De tudo ao meu amor serei atento, antes e com tal zelo, e sempre, e tanto.",
+    "Tristeza não tem fim, felicidade sim.",
+    "As coisas são do tamanho que a gente vê.",
+    "A vida é uma folia, meu bem, não tenhas medo dela."
+    ]
+
+    return random.choice(frases)
+
+def main():
+    nome = obter_nome()
+    idade = obter_idade()
+    print(f"Olá, {nome}! Cujo idade é {idade} anos, que velho(a) você está!😅, lembre-se que: {frase_motivacional()}")
+
+if __name__ == "__main__":
+    main()
+    import random
+
+def main():
+    numero_secreto = random.randint(1, 100)
+    tentativas = 0
+
+    print("Bem-vindo ao Adivinhe o Número!")
+    print("Estou pensando em um número entre 1 e 100. Tente adivinhar.")
+
+    while True:
+        tentativa = int(input("Digite o seu palpite: "))
+        tentativas += 1
+        
+        if tentativa == 69:
+            print("Que safadinho(a) você!🤪")
+        if tentativa < numero_secreto:
+            print("Tente um número maior.")
+        elif tentativa > numero_secreto:
+            print("Tente um número menor.")
+        else:
+            print(f"Parabéns! Você acertou o número {numero_secreto} em {tentativas} tentativas. Que demora, finalmente ein! 😂")
+            break
+
+if __name__ == "__main__":
+    main()
+
+    print('Fiquei um tempão nisso, gostou das frase?')
+msg=('Obrigado Mamãe, lele ti ama ❤')
+print(msg)
+
+def obter_resposta():
+    while True:
+        resposta = input("Responda com sim ou não a pergunta da frase que te fiz ali em cima: ").lower()
+        if resposta == "sim":
+            return True
+        elif resposta == "não":
+            print("Resposta inserida inválida bobona 😝.")
+        else:
+            print("Resposta inserida inválida bobona 😝.")
+
+resposta = obter_resposta()
+print("Você respondeu:", resposta)
+
+#PERGUNTA SOBRE A MANICURE
+cor_unha = input("Qual é a cor da sua unha? ")
+print("que pika! A cor da tua unha é", cor_unha, "então 😎💅")
+
+#PERGUNTA SOBRE O J'AHPOD AL-MOSSAR
+almoco = input("O que tu vai faze pro almoço? ")
+
+if almoco.lower() == "nada":
+    print("Faz o almoço coisa chata 😡")
+
+def mensagem_agora_vai_estudar():
+    print("Agora vai estudar!! 🤓🤭")
